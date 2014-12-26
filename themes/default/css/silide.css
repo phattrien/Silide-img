@@ -1,0 +1,225 @@
+
+/* Phan viet them  Silide*/
+ 
+ 
+/* Hand cursor over navigation elements */
+.unoslider_navigation {
+  cursor: pointer;
+}
+
+/* Tooltip panel */
+.unoslider_caption {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  font-family: "Helvetica neue", Helvetica, Verdana, sans-serif;
+  text-shadow: black 0 1px 0;
+  padding: 10px 0px;
+  width:600px;
+  background-color: #373737;
+  border-top: 1px solid #545454;
+  border-bottom: 1px solid #545454;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* play, pause, previous and next elements */
+.unoslider_pause, .unoslider_play, .unoslider_left, .unoslider_right {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  position: absolute;
+  display: block;
+  background: url(../images/silide/ribbon.png) no-repeat;
+}
+
+/* play and pause elements */
+.unoslider_pause, .unoslider_play {
+  height: 31px;
+  width: 28px;
+  margin-top: -15.5px;
+  margin-left: -14px;
+  top: 50%;
+  left: 50%;
+}
+
+/* previous and next elements */
+.unoslider_left, .unoslider_right {
+  width: 33px;
+  height: 64px;
+  margin-top: -32px;
+  top: 50%;
+}
+
+/* previous */
+.unoslider_left {
+  background-position: 0px 0px;
+  left: -6px;
+}
+
+/* next */
+.unoslider_right {
+  background-position: 0px -72px;
+  right: -6px;
+}
+
+/* pause */
+.unoslider_pause {
+  background-position: 0px -195px;
+}
+
+/* play */
+.unoslider_play {
+  background-position: 0px -150px;
+}
+
+/* bullet indicator */
+.unoslider_indicator {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  _text-align: right;
+  *text-align: right;
+}
+.unoslider_indicator a {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  cursor: pointer;
+  margin: 3px;margin-top:-20px;
+  width: 11px;
+  height: 11px;
+  background-color: black;
+  background: url(../images/silide/ribbon.png) no-repeat;
+  background-position: 0 -238px;
+}
+.unoslider_indicator a {
+  *display: inline;
+}
+.unoslider_indicator a.unoslider_indicator_active {
+  background-position: 0px -255px;
+  -moz-border-radius: 90px;
+  -webkit-border-radius: 90px;
+  -o-border-radius: 90px;
+  -ms-border-radius: 90px;
+  -khtml-border-radius: 90px;
+  border-radius: 90px;
+  -moz-box-shadow: 0px 0px 5px #fb0000;
+  -webkit-box-shadow: 0px 0px 5px #fb0000;
+  -o-box-shadow: 0px 0px 5px #fb0000;
+box-shadow: 0 0 3px #FFF;
+border: 2px solid #FFF500;
+}
+.unoslider{list-style:none;position:relative;width:1014px;height:200px !important;margin:5px;padding:0}
+.unoslider li{display:none;position:absolute;width:100%;height:100%;top:0;left:0}
+.unoslider li .unoslider_slider_area { height: 200px !important; }
+.unoslider li .unoslider_slider_area img { height: 200px !important; }
+.unoslider_timer {
+background-color: white;
+width: 0%;
+height: 2px;
+position: absolute;
+left: 0;
+top: 0;
+opacity: .5;
+-moz-box-shadow: 0 1px 1px black;
+-webkit-box-shadow: 0 1px 1px black;
+-o-box-shadow: 0 1px 1px black;
+box-shadow: 0 1px 1px rgb(224, 224, 224);
+}
+.unoslider_preloader{background:rgba(255,255,255,0.5)}
+.unoslider_preloader .unoslider_progress{width:30%;height:5px;margin:0 auto;border-top:1px solid #7c7c7c;
+border-bottom:1px solid #f1f1f1;border-left:1px solid #949494;border-right:1px solid #949494;
+background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9a9a9a), color-stop(100%, #b3b3b3));
+background:-webkit-linear-gradient(#9a9a9a, #b3b3b3);background:-moz-linear-gradient(#9a9a9a, #b3b3b3);
+background:-o-linear-gradient(#9a9a9a, #b3b3b3);background:-ms-linear-gradient(#9a9a9a, #b3b3b3);background:linear-gradient(#9a9a9a,#b3b3b3)}
+.unoslider_preloader .unoslider_progress span{display:block;height:100%;background:#66cccc}
+.bgg_footer {
+background: url(../images/bgg_footer.png) no-repeat;
+width: 988px;
+height: 160px;
+}.bgg_footer .bgg_footer_1{width:275px}.bgg_footer .bgg_footer_3{width:286px}.bgg_footer .bgg_footer_4{width:170px}
+.bgg_footer .bgg_footer_1 div{color:#1e5faf;padding:30px 10px 0 10px}.bgg_footer .bgg_footer_2 div{padding:60px 70px 0 0}
+.bgg_footer .bgg_footer_3 div{padding:60px 80px 0 0}.bgg_footer .bgg_footer_4 div{padding:60px 0 0}
+.bgg_footer .bgg_footer_2 div a,.bgg_footer .bgg_footer_3 div a,.bgg_footer .bgg_footer_4 div a{font-family:Tahoma,Geneva,sans-serif;font-size:10px;font-weight:700;text-decoration:none;color:#012d86;line-height:18px}
+.bgg_footer .bgg_footer_2 div a span{color:#ec1a23}
+.address_c{background:url(../images/address_c.jpg) repeat-x;width:944px;height:143px}
+.address_c .title{padding:3px}
+.address_c .address{width:230px;padding-left:5px;font-family:Tahoma,Geneva,sans-serif;font-size:11px;line-height:14px}
+.address_c .address div{padding-right:5px}
+.icon_bgg_offer_l{background-position:0 -634px;padding-left:97px;height:47px;padding-top:0;cursor:pointer;padding-right:30px}
+.icon_bgg_offer_r{background-position:0 -694px;padding-left:97px;height:47px;padding-top:0;cursor:pointer;padding-right:30px;width:4px}
+.icon_bgg_offer_c{background-position:0 -13px;background-repeat:repeat-x;height:47px}
+.icon_compare{background:url(../../includes/images/sosanh.jpg) no-repeat scroll 0 transparent;height:29px;position:absolute;width:91px}
+.bot_home_l_r{float:left;width:12px}.bot_home_c{float:left;width:679px}
+.bot_home_l_r .icon_bgg_home_bot_l{background-position:0 -568px;padding-left:97px;height:12px;padding-top:0;cursor:pointer;padding-right:30px}
+.bot_home_l_r .icon_bgg_home_bot_r{background-position:0 -605px;padding-left:97px;height:12px;padding-top:0;cursor:pointer;padding-right:30px}
+.bot_home_c .icon_bgg_home_bot_c{background-position:0 -1px;background-repeat:repeat-x;height:12px}
+.box_hotline_show{background-color:#FFF;border:1px solid #3a9f1f;opacity:.99;position:absolute;visibility:hidden;width:260px;padding:10px 0 10px 10px}.product_list_left{margin-right:10px;width:530px}.product_list_right{width:221px}.box_compare_border{border:1px solid #ebebeb}.box_compare{width:155px;height:210px;border:0 solid #ccc;text-align:center;padding-top:10px}.box_compare1{width:120px;height:180px}.list_cate_child{background-position:-119px -284px;height:35px;width:192px}.icon_hotline{background-position:-119px -332px;height:24px;margin-left:0;margin-top:5px;padding-left:0;width:253px}.icon_yahoo{background-position:-42px -66px;height:25px;margin-left:48px;padding-left:0;width:27px;margin-top:5px}.icon_cat_path{background-position:0 -744px;height:8px;width:8px;padding-right:10px;padding-top:4px}.left,#tabMenu,#tabNewsHot{float:left}#tabMenuTop1,#tabMenuTop,#tabMenuDm,#tabMenuDmPro{border-bottom:0 solid #999;float:left;width:100%}#tabMenuTop1 li,#tabMenuDm li,#tabMenu li,#tabMenuDmPro li,#tabNewsHot li{display:inline;margin:0}#tabMenuTop1 a:hover,#tabMenuTop1 .curent a{background-position:0 -36px}#tabMenuTop1 a:hover span,#tabMenuTop1 .curent a span{background-position:100% -36px;font-family:Tahoma;font-size:11px;color:#fff;text-decoration:none;font-weight:700;text-transform:uppercase}#tabMenuTop a:hover,#tabMenuTop .curent a,#tabMenu a:hover,#tabMenu .curent a{background-position:0 -40px}#tabMenuTop a:hover span,#tabMenuTop .curent a span{background-position:100% -40px;font-family:Tahoma;font-size:11px;color:#0575fd;text-decoration:none;font-weight:700}#tabMenuDm ul,#tabMenu ul,#tabMenuDmPro ul,#tabNewsHot ul{margin:0;padding:0}#tabMenuDm a:hover,#tabMenuDm .curent a{background-position:0 -38px}#tabMenuDm a:hover span,#tabMenuDm .curent a span{background-position:100% -38px;font-family:tahoma;font-size:11px;color:#ff000a;text-decoration:none;font-weight:700}.padd_body,.box_border_pro_home div{padding-left:4px;padding-right:4px}.bgg_footer .bgg_footer_2,.product_detail_info_r{width:240px}.bgg_footer .bgg_footer_2 div a:hover,.bgg_footer .bgg_footer_3 div a:hover,.bgg_footer .bgg_footer_4 div a:hover,.textHeader a:hover,.newsTop .newsTops a:hover,.newsTop1 .newsTops a:hover,.infoNews span a:hover,.magic_right a:hover,.header_top a:hover,.header_bottom a:hover,.news_left a:hover,.choice_buy_product_box p a:hover,.box_pro_r .pro_r a:hover,.box_pro_review_info a:hover,.newsLeftTitle a:hover,.product_product_home a:hover,.footer_left_2 a:hover,.footer_left_3 a:hover,.footer_left_3 a:hover,.footer_left_4 a:hover,.footer_left_5 a:hover,.support_buy a:hover,.method a:hover,.info a:hover,.bgg_fot_red span a:hover,.fontAtri a:hover,.fontAtriPrice a:hover,.productName a:hover,.show_relate a:hover,.catNameChild a:hover,.catNameChildRight a:hover,.cate_news a:hover,.newsRightR a:hover,.tinkhac a:hover,.membership a:hover,.name_product_home a:hover,.news_info a:hover,.news_info1 a:hover,.footer_info span a:hover,.footer_online span a:hover,.footer_policy span a:hover,.column_cate a:hover,.favorite_user li a:hover,.keyword a:hover,.product_show_left a:hover,.news_block .news-item a:hover,.news_block .content-first h3 a:hover,.jobs-list .newsRightR h3 a:hover,.jobs-list .newsRightR .readmore a:hover,.km-item .kmname a:hover{text-decoration:underline}
+.address_l,.address_r{width:23px;height:143px}
+
+
+
+#container .homebanner {
+width: 61%;
+text-align: left;
+font-size: 110%;
+padding: 0 0;
+overflow: hidden;
+border: 5px solid rgba(255,255,255,0.53);
+box-shadow: 0 0 20px;
+margin-left: 7px;
+border-radius: 10px;
+margin-bottom: 12px;
+margin-top: 2px;
+margin-right: 14px;
+}
+
+#container .homebanner .slider-container {
+margin-top: 0px !important;
+}
+
+#container .homebanner .slider-container .unoslider
+{
+width: 98.5% !important;
+height: 300px !important;
+}
+
+
+#container .homegioithieu {
+max-width: 34.5%;
+text-align: justify;
+font-size: 120%;
+overflow: auto;
+margin-right: 12px;
+}
+
+#container .homegioithieu .content h2 {
+font-variant: small-caps;
+text-transform: uppercase;
+color: #FFF;
+font-weight: bold;
+text-align: center;
+font-size: 110%;
+text-shadow: 0 0 10px #D8D8D8;
+}
+
+#container .homegioithieu .content h2 a {
+color: #F00;
+}
+
+#container .homegioithieu .content h2 a:hover {
+color: #0099FF;
+}
+
+/* HET Phan viet them */
